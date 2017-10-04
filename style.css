@@ -1,0 +1,34 @@
+body{
+        background-image: url("https://i.pinimg.com/originals/b7/cf/42/b7cf427005492526195313a545fc3cf1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #god{
+        background-color: rgba(255,255,255, 0.5);
+        padding-bottom: 40px;
+
+    }
+    h1{
+        text-align: center;
+    }
+    .beerItem{
+      position: relative;
+      height: 300px;
+      margin: 40px 0px;
+      text-align: center;
+    }
+    .beerName{
+      width: 300px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      margin: auto;
+      font-weight: bold;
+    }
+    .modal-content{
+      padding-right: 30px;
+      width: 130%;
+    }
+    .highlight{
+      font-weight: bolder;
+    }

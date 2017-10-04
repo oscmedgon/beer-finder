@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="god">
+        <h1>SkyBeer</h1>
+            <form id="search">
+                <input class="input-lg" type="" name="query" placeholder="Type your favourite beer">
+                <button class="btn btn-lg btn-primary">Search Beer</button>
+            </form>
+        <div id="beer-list" class="row">
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="beerName"></h4>
+          </div>
+          <div class="row">
+                <!-- LEFT -->
+              <div id="beerInfo" class="beer-body col-md-4">
+                <img src="" id="beerImage">
+              </div>
+              <!-- RIGHT -->
+              <div id="beerBody" class="beer-body col-md-8">
+                  <p id="beerDescription"></p>
+                  <ul class="list-unstyled">
+                    <li ><span class="highlight">Date of Creation:</span><span id="creationDate"></span></li>
+                    <li ><span class="highlight">Graduation:</span><span id="graduation"></span></li>
+                    <li ><span class="highlight">Style:</span><span id="beerStyle"></span></li>
+                    <li ><span class="highlight">Serving Temperature:</span><span id="ServingTemperature"></span></li>
+                </ul>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

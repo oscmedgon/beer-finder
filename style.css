@@ -13,7 +13,7 @@ body{
     }
     .beerItem{
       position: relative;
-      height: 300px;
+      min-height: 350px;
       margin: 40px 0px;
       text-align: center;
     }
